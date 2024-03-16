@@ -1,0 +1,115 @@
+#middle-story-structure {
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 10px 0;
+  /* border: 1px solid black; */
+}
+
+#story-structure {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#story-structure > .single-story {
+  position: relative;
+  height: 160px;
+  width: 20%;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 5;
+  margin: 0 8px;
+  /* border: 1px solid green; */
+}
+
+.single-story > .story-preview {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* border: 1px solid blue; */
+}
+
+.story-preview > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.single-story > .story-user {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.story-user > .user-img {
+  height: 50px;
+  width: 50px;
+  margin: 5% 45% 0 0;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.user-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 3px solid orangered;
+}
+
+.story-user > p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+#story-arrows {
+  /* height: 100%; */
+  width: 80%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+#story-arrows > .arrow-left,
+.arrow-right {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 0 0 10px 0;
+  /* border: 1px solid blue; */
+}
+
+#story-arrows > .arrow-right:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+#story-arrows > .arrow-left:hover {
+  background-color: rgb(250, 250, 250);
+}
