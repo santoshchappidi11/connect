@@ -171,6 +171,13 @@
 }
 
 
-.no-follow-msg > p {
+#no-follow-msg{
+  width: auto;
+  text-align: left;
+  /* border: 1px solid blue; */
+}
+
+#no-follow-msg > p {
+  margin: 0 0 0 15px;
   color: rgb(251, 113, 62);
 }

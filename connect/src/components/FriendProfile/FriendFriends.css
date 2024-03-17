@@ -171,11 +171,11 @@
   /* border-bottom: 1px solid blue; */
 }
 
-.no-follow-msg {
+#no-follow-msg {
   /* border: 1px solid black; */
 }
 
-.no-follow-msg > p {
+#no-follow-msg > p {
   margin: 0 20px;
   color: rgb(251, 113, 62);
 }

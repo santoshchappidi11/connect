@@ -104,7 +104,7 @@ const ProfileFriends = () => {
                   </>
                 ))
               ) : (
-                <div className="no-follow-msg">
+                <div id="no-follow-msg">
                   <p>No Followers!</p>
                 </div>
               )}

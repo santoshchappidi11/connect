@@ -105,7 +105,7 @@ const FriendFriends = ({ profileId }) => {
                   </>
                 ))
               ) : (
-                <div className="no-follow-msg">
+                <div id="no-follow-msg">
                   <p>No Followers!</p>
                 </div>
               )}
@@ -130,7 +130,7 @@ const FriendFriends = ({ profileId }) => {
                   </>
                 ))
               ) : (
-                <div className="no-follow-msg">
+                <div id="no-follow-msg">
                   <p>No Followings!</p>
                 </div>
               )}
