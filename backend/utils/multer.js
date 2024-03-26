@@ -13,7 +13,7 @@ export const multerUnlink = (deleteImagePath) => {
       console.log(err, "error deleting post image!");
       return res
         .status(500)
-        .json({ success: false, message: "Something went wrong!" });
+        .json({ success: false, message: "Something went wrong!!!" });
     }
   });
 };
